@@ -7,8 +7,10 @@ Base on docker nginx 1.12.2 stable to generate a customize nginx image, the samp
 3. Build docker image
 
 ## Build docker image
+```
 cd $repo_dir
 docker build -t $image_name -f dockerfile.nginx .
+```
 
 ## Docker run
 1. docker run -d -p 8080:80 $image_name
